@@ -1,0 +1,343 @@
+/*-- Global Css start here --*/
+
+body,html{
+    height: 100%;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+} 
+div{
+    display: block;
+}
+a span{
+    color:dodgerblue;
+}
+.msg{
+    border:1px solid greenyellow;
+    color:greenyellow;
+    padding:8px;
+    border-radius:3px;
+}
+.err{
+    border:1px solid #ffb3b3;
+    color:#ffb3b3;
+    padding:8px;
+    border-radius:3px;
+}
+
+.table tr:hover{
+    color:black;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.contact{
+    background-color: beige;
+    background-image: url(img/back.jpg);
+    background-repeat: repeat;
+}
+.graph{
+    height:300px;
+    border-left:3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.sub1,.sub2,.sub3,.sub4,.sub5{
+    border:1px solid yellow;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    height:100%;
+    bottom: 3px;
+    width:50px;
+}
+.name{
+    position: absolute;
+    bottom: -18px;
+    
+}
+.sub1,.s1{
+    left:80px;  
+}
+.sub2,.s2{
+    left:160px;
+}
+.sub3,.s3{
+    left:240px;
+}
+.sub4,.s4{
+    left:320px;
+}
+.sub5,.s5{
+    left:400px;
+}
+/*-- -------  Header start here   -----*/
+
+.navbar {
+    margin-bottom: 0;
+    background:#102C54;
+    z-index: 9999;
+    border: 0;
+    border-bottom:5px solid #215aab;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+/*-- navigation Css start here --*/
+
+.nav{
+    margin-top: 15px;
+}
+.navbar li a, .navbar .navbar-brand,.site-name a {
+    color: #fff !important;
+    text-decoration:none;
+}
+.active{
+    background-color:transparent;
+}
+
+.navbar-default .navbar-nav >li a:hover, .navbar-default .navbar-nav >li.active a,.navbar-default .navbar-nav >li.active a:hover {
+    color: #215aab !important;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}   
+.dropdown-menu{
+    background-color:#102C54; 
+}
+.dropdown-menu li{
+    padding:10px 0;
+}
+/*-- navigation Css end here ------*/
+
+/*-- Logo and Site Name Css start here --*/
+
+.logo img{
+    height:60px;
+    width:60px;
+}
+.logo{
+    float:left;
+    margin:10px 10px 10px 0;
+}
+.site-name{
+    padding:10px;
+    font-size:20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #afafaf ;
+}
+
+/*-- Display section Css start here --*/
+
+.jumbotron{
+    background-color:#184481;
+    color:#fff;
+    text-transform: uppercase;
+    position:relative;
+    margin-bottom: 0;
+    
+}
+.jumbotron p{
+    
+    text-transform: capitalize;
+    font-size:19px;
+}
+.jumbotron img{
+	width:200px;
+	height:200px;
+}
+
+/*-- Display section Css end here --*/
+
+/*-- banner section Css start here --*/
+
+.admin_banner,.adminlogged_banner,.banner{ 
+    height: 100%;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat; 
+    background-blend-mode:multiply;
+    background-color: rgba(0,0,0,0.8);
+    background-attachment: fixed;
+    border-bottom: 15px solid #215aab;
+}
+.adminlogged_banner{ 
+    min-height: 1000px;
+    background-image: url(img/logo.jpg);
+}
+.admin_banner{ 
+    background-image: url(img/logo.jpg);
+}
+
+.admin_banner .banner_cont {
+    position: absolute;
+    top:30%;
+}
+.adminlogged_banner .banner_cont {
+    position: absolute;
+    z-index: 2;
+    top:20%;
+}
+
+/* all from foramatting css */
+
+.wellform{
+    background:rgba(200,200,200,0.5);
+    color:#fff;
+}
+.wellform input[type=text],.wellform input[type=number],.wellform input[type=email]{
+    padding:15px;
+}
+.wellform li a{
+    color:#fff;
+}
+
+/* index page banner */
+
+.banner{ 
+    background-image: url(img/unilorin.jpg);
+    
+}
+.banner .banner_cont{
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+}
+.banner .banner_cont h1{
+    text-align: center;
+    background-size: cover;
+    color:#fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height:70px;
+    text-shadow: 2px 2px 1px #000,2px 3px 10px rgba(255,255,255,0.5);  
+}
+.banner .banner_cont p{
+    color:#afafaf;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight:300;
+    line-height: 1.6;
+    
+}
+h1 span{
+    color: #699ce2;
+    text-shadow: none;
+}
+
+/*-- banner section Css end here --*/ 
+
+/*-- Welcome section Css start here --*/ 
+
+.welcome {
+    background-color: #fff;
+    padding:50px 10px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+   
+}
+.welcome p{
+    font-size:15px;
+    color:#4f4f4f;
+}
+.welcome h1{
+    font-size:50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #fff,1px 1px 9px #000;;
+}
+.welcome-cont p{
+    color:#afafaf;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight:300;
+    line-height: 1.6; 
+}
+.welcome img{
+	margin: 0 auto;
+}
+hr{
+    border-bottom: 1px inset #afafaf;
+}
+.space{
+    margin: 20px 0;
+}
+.space-top{
+    margin-top:20px;
+}
+.space-bottom{
+    margin-bottom: 20px;
+}
+#about ul{
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+#about ul li{
+    margin: 10px 0;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+.text-colored {
+    color: #55acee;
+}
+/*-- Welcome section Css end here --*/ 
+
+/*-- Footer Css start here --*/
+
+.footer{
+    background-color: #102C54;
+    color:#fff;
+    padding:20px 0 10px 0;
+}
+.section {
+    padding: 40px 0;
+}
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 18px;
+}
+.footer-content p{
+    font-size:20px;
+}
+.form-control-feedback {
+    position:absolute; 
+    margin-top:10px;
+}
+
+/*--Footer Css end here --*/ 
+
+@media (min-width:768px) and (max-width:991px){
+    .site-name{
+        font-size:12px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width:991px) and (max-width:1199px){
+    .site-name{
+        font-size: 18px;
+        line-height: 20px
+    }
+}
+
+@media (max-width:768px){
+    .banner_cont h1{
+        font-size:50px;
+    }
+}
